@@ -1,0 +1,92 @@
+header {
+  width: 100%;
+  .personal-info {
+    max-width: 1046px;
+
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 33px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    &--left {
+      figure {
+        img {
+          width: 270px;
+          height: 270px;
+          border-radius: 12px;
+        }
+      }
+    }
+    &--right {
+      display: flex;
+      flex-direction: column;
+      gap: 37px;
+      &--top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        .name-position {
+          display: flex;
+          flex-direction: column;
+          gap: 6px;
+          h2 {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            color: #4f4f4f;
+          }
+          span {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: #828282;
+          }
+        }
+        .contact-link {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          .phone,
+          .email {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 18px;
+            span {
+              color: #4f4f4f;
+              font-size: 20px;
+            }
+            a {
+              font-family: "Montserrat";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 22px;
+              color: #4f4f4f;
+            }
+          }
+        }
+      }
+      &--bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        p {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22px;
+          color: #828282;
+        }
+      }
+    }
+  }
+}
